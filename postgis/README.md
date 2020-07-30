@@ -1,6 +1,6 @@
 ## plpython functions (python v 2.7)
 
-# Prerequisites to enbale plpython functions in Postgresql and to use the LATERAL join
+# Prerequisites to enable plpython functions in Postgresql / PostGIS and to use the LATERAL join
 
 * Postgresql version 9.3+ (introduces LATERAL join type)
 * PostGIS extension installed
