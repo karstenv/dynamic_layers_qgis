@@ -12,7 +12,7 @@ Run the SQL files in this folder to create the Database views and plpython funct
 
 ## There are files for two examples in this diretory:
 
-### 1. Combining PostGIS Database Views and dynamic queries with API calls the Openweather map API 
+### 1. Combining PostGIS Database Views and dynamic queries with API calls to the Openweather map API 
 
 To make this example run correctly
 
@@ -50,7 +50,7 @@ q=Berlin,DE
 6. Refresh the map display - the dynamic data in the view should now be visible
 
 
-### 2. Combining PostGIS Database Views and dynamic queries with API calls the USGS Earthquake API
+### 2. Combining PostGIS Database Views and dynamic queries with API calls to the USGS Earthquake API
 
 To make this example run correctly
 
