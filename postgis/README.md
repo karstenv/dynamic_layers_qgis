@@ -10,7 +10,7 @@
 **Create a PostGIS Database with the name 'osgis'** (open source gis) to use the files here (almost) without any edits out of the box (exception see note for Example1 - step 3 below).
 Run the SQL files in this folder to create the Database views and plpython functions inside the database **osgis** (_owned by **postgres** db user_)
 
-There are two examples in this diretory:
+## There are files for two examples in this diretory:
 
 ### 1. Combining PostGIS Database Views and dynamic queries with API calls the Openweather map API 
 
