@@ -14,7 +14,7 @@ The combination of QGIS with spatial data bases such as Spatialite, Geopackage a
 
   * [QGIS Docs](https://docs.qgis.org/3.10/en/docs/user_manual/style_library/symbol_selector.html?highlight=generator#the-geometry-generator)
 
-* [**Spatialite**](https://plpygis.readthedocs.io/en/latest/plpython.html#type-mappings)
+* [**Spatialite**](https://www.gaia-gis.it/fossil/libspatialite/index)
 
 * [**PostGIS and plpython**](https://plpygis.readthedocs.io/en/latest/plpython.html#type-mappings)
 
