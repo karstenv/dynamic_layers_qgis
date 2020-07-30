@@ -22,7 +22,26 @@ To make this example run correctly
 
 **IMPORTANT to make step 3 work before running the SQL do replace the string xyzapikey (on line 9 and line 27 in db_view_nearest_weatherstation.sql the two api calls to openweathermap) with your own key string** - to create one visit [Weather API](https://openweathermap.org/api)
 
-3. Create the db view (run db_view_nearest_weatherstation.sql )
+3. Create the db view (run db_view_nearest_weatherstation.sql ).  To verify if the function and API call is running correctly try this SQL query in the database: 
+
+```sql
+select GetWeatherAll(-122.3,50.6);
+-- OR
+SELECT GetWeatherAll(-122.3::real,50.6::real);
+```
+The result should look the same as a direct API request (try in a browser but add your own API key):
+
+```html
+# API Calls have this systax:
+# api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={your api key}
+# For example query by latitude and longitude
+http://api.openweathermap.org/data/2.5/weather?lat=13.74&lon=100.49&appid=xykey
+
+# Query by city and country 
+http://api.openweathermap.org/data/2.5/weather?
+q=Berlin,DE
+&appid=xykey
+```
 
 4. Add the table and view to your QGIS project
 
