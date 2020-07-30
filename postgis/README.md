@@ -20,9 +20,9 @@ To make this example run correctly
 
 2. create the function GetWeatherAll (run plpython27_function_GetWeatherAll.sql )
 
-3. Create the db view (run db_view_nearest_weatherstation.sql )
-
 **IMPORTANT to make step 3 work before running the SQL do replace the string xyzapikey (on line 9 and line 27 in db_view_nearest_weatherstation.sql the two api calls to openweathermap) with your own key string** - to create one visit [Weather API](https://openweathermap.org/api)
+
+3. Create the db view (run db_view_nearest_weatherstation.sql )
 
 4. Add the table and view to your QGIS project
 
@@ -43,7 +43,7 @@ To make this example run correctly
 
 4. Add the table and view to your QGIS project
 
-5. Add (digitize - this will work fpr locatiosn in the US and A only ) a location point and save
+5. Add (digitize - this will work for locations inside the boundaries of the USandA only ) a location point and save
 
 6. Refresh the map display - the dynamic data in the two db view should now be visible
 
