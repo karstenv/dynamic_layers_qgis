@@ -39,7 +39,16 @@ To make this example run correctly
 
 2. create the function (run plpython27_function_GetEarthquakeAll.sql)
 
-3. Create the db two db views (run db_view_earthquakes_in_radius.sql and db_view_qqloc_earthquake_line.sql )
+3. Create the db two db views (run db_view_earthquakes_in_radius.sql and db_view_qqloc_earthquake_line.sql ). To verify if the function and API call is running correctly try this SQL query in the database: 
+
+```sql
+select getearthquakeall('2020-01-01'::date ,'2020-03-01'::date, -120::real, 40::real,200, 1.7)
+```
+The result should look the same as [this HTTP request](https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2020-01-01&endtime=2020-03-01&latitude=40&longitude=-120&maxradiuskm=200&minmagnitude=1.7&orderby=magnitude) (gets 40 earthquake events back as JSON) to the same API (try in a browser):
+
+```html
+https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2020-01-01&endtime=2020-03-01&latitude=40&longitude=-120&maxradiuskm=200&minmagnitude=1.7&orderby=magnitude
+```
 
 4. Add the table and view to your QGIS project
 
