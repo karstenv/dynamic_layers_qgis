@@ -16,7 +16,7 @@ There are two examples in this diretory:
 
 To make this example run correctly
 
-1. load the sql for the point file osgis.location first (run location.sql). This will create an empty table structure for the point locations you will later manually add in QGIS
+1. load the sql for the point file osgis.location first (run locations.sql). This will create an empty table structure for the point locations you will later manually add in QGIS
 
 2. create the function GetWeatherAll (run plpython27_function_GetWeatherAll.sql )
 
@@ -33,7 +33,7 @@ To make this example run correctly
 
 To make this example run correctly
 
-1. load the sql for the point file osgis.qlocation first (run qlocation.sql). This will create an empty table structure for the point locations you will later manually add in QGIS
+1. load the sql for the point file osgis.qlocation first (run qlocations.sql). This will create an empty table structure for the point locations you will later manually add in QGIS
 
 2. create the function (run plpython27_function_GetEarthquakeAll.sql)
 
