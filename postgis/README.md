@@ -73,7 +73,7 @@ https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2020-0
 
 5. Add (digitize - this will work for locations inside the boundaries of the USandA only ) a location point and save
 
-6. Refresh the map display - the dynamic data in the two db view should now be visible
+6. Refresh the map display - the dynamic data in the two db views should now be visible
 
 
 
