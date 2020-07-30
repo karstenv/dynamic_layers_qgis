@@ -14,7 +14,7 @@ There are two examples in this diretory:
 
 ### 1. Combining PostGIS Database Views and dynamic queries with API calls the Openweather map API 
 
-To make the example run correctly
+To make this example run correctly
 
 1. load the sql for the point file osgis.location first (run location.sql). This will create an empty table structure for the point locations you will later manually add in QGIS
 
@@ -24,12 +24,14 @@ To make the example run correctly
 
 4. Add the table and view to your QGIS project
 
-5. Add (digitize - this will work worldwide) a location point and save
+5. Add (digitize - this will work for worldwide locations) a location point and save
 
 6. Refresh the map display - the dynamic data in the view should now be visible
 
+
 ### 2. Combining PostGIS Database Views and dynamic queries with API calls the USGS Earthquake API
 
+To make this example run correctly
 
 1. load the sql for the point file osgis.qlocation first (run qlocation.sql). This will create an empty table structure for the point locations you will later manually add in QGIS
 
@@ -39,7 +41,7 @@ To make the example run correctly
 
 4. Add the table and view to your QGIS project
 
-5. Add (digitize - this will work worldwide) a location point and save
+5. Add (digitize - this will work fpr locatiosn in the US and A only ) a location point and save
 
 6. Refresh the map display - the dynamic data in the two db view should now be visible
 
