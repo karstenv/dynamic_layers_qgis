@@ -22,8 +22,7 @@ To make this example run correctly
 
 3. Create the db view (run db_view_nearest_weatherstation.sql )
 
-**IMPORTANT to make step 3 work before running the SQL do replace the string xyzapikey (on line 9 and line 27 in db_view_nearest_weatherstation.sql the two api calls to openweathermap) with your own key string**
-- to create one visit https://openweathermap.org/api
+**IMPORTANT to make step 3 work before running the SQL do replace the string xyzapikey (on line 9 and line 27 in db_view_nearest_weatherstation.sql the two api calls to openweathermap) with your own key string** - to create one visit [Weather API](https://openweathermap.org/api)
 
 4. Add the table and view to your QGIS project
 
