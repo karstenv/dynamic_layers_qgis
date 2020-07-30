@@ -5,4 +5,4 @@
 * Postgresql version 9.3+ (introduces LATERAL join type)
 * PostGIS extension installed
 * Python 2.7 installed
-' plpython language enabled in the database (plpython2 or plpythonu will work out of the box with the examples provided)
+* plpython language enabled in the database (plpython2 or plpythonu will work out of the box with the examples provided)
