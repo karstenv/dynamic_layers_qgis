@@ -7,7 +7,7 @@
 * Python 2.7 installed
 * plpython language enabled in the database (plpython2 or plpythonu will work out of the box with the examples provided)
 
-Create a PostGIS Database with the name 'osgis' (open source gis) to use the files here without any edits out of the box.
+**Create a PostGIS Database with the name 'osgis'** (open source gis) to use the files here without any edits out of the box.
 Run the SQL files in this folder to create the Database views and plpython functions inside the database **osgis** (_owned by **postgres** db user_)
 
 There are two examples in this diretory:
